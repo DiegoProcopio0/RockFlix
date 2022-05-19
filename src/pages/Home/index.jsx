@@ -5,6 +5,8 @@ import { ApiKey } from "../../config/key"
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 
+import { Button } from "../../components/Button"
+
 
 export function Home() {
 
@@ -15,13 +17,18 @@ export function Home() {
         fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${ApiKey}&language=en-US&page=1`)
             .then(response => response.json())
             .then(data => setMovies(data.results))
-            .catch(error => console.error(error))
-        
+            .catch(error => console.error(error))  
     })
 
     return (
-        <Container>
-            <h1>Movies</h1>
+        <Container>     
+          <div className="header">
+             <h1>High Movies</h1>
+                <Link to={`/details/335787`}>
+                      <Button/>  
+                </Link>    
+       
+          </div>                   
             <MovieList>
 
             {movies.map(movie => {

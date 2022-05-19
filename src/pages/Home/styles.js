@@ -1,8 +1,18 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  h1 {
-    text-align: center;
+export const Container = styled.header`
+  padding: 2rem;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin: 2rem 0;
+  }
+
+  .header h1 {
     margin: 4rem 0;
   }
 `;

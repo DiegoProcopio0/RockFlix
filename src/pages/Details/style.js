@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
+height: 100vh;
 padding: 4rem 0;
 
   h1 {
@@ -52,5 +53,14 @@ padding: 4rem 0;
 
   .release-date {
     opacity: 0.5;
+  }
+
+  @media (max-width: 750px) {
+    div.details {
+      align-items: center;
+      text-align: center;
+      margin: 0;
+      max-width: 80%;
+    }
   }
 `;

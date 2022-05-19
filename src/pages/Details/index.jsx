@@ -38,7 +38,10 @@ export function Details() {
          <span>Sinopse: {movie.sinopse}</span>
          <span className="release-date">Release Date: {movie.releaseDate}</span>
          <Link to={`/`}>
-         <button>Go Back</button>
+         <button>Go Home Page</button>
+         </Link>
+         <Link to={`/searchmovie`} >
+         <button>Go Searc Movie</button>
          </Link>
        </div>
      </div>
