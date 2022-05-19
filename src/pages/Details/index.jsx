@@ -40,8 +40,8 @@ export function Details() {
          <Link to={`/`}>
          <button>Go Home Page</button>
          </Link>
-         <Link to={`/searchmovie`} >
-         <button>Go Searc Movie</button>
+         <Link to={`/find-movie`} >
+         <button>Go Find Movie</button>
          </Link>
        </div>
      </div>

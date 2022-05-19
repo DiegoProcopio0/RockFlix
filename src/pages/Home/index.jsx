@@ -24,13 +24,11 @@ export function Home() {
         <Container>     
           <div className="header">
              <h1>High Movies</h1>
-                <Link to={`/details/335787`}>
+                <Link to="/find-movie">
                       <Button/>  
                 </Link>    
-       
           </div>                   
             <MovieList>
-
             {movies.map(movie => {
                 return (
                     <Movie key={movie.id}>
@@ -41,7 +39,6 @@ export function Home() {
                     </Movie>
                 )
             })}
-
                 <Movie>
                     <a href="h">
                      <img src="https://filmdaily.co/wp-content/uploads/2022/03/spider-lede-7-691x1024.jpeg" alt="Spider Man" />

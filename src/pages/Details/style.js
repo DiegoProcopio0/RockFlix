@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
-height: 100vh;
-padding: 4rem 0;
+  height: 100vh;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%)
+    no-repeat;
 
   h1 {
     margin: 3rem 0;
@@ -14,6 +18,7 @@ padding: 4rem 0;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    height: 100%;
   }
 
   img {
@@ -55,7 +60,10 @@ padding: 4rem 0;
     opacity: 0.5;
   }
 
+
   @media (max-width: 750px) {
+    height: auto;
+
     div.details {
       align-items: center;
       text-align: center;
