@@ -25,10 +25,23 @@ Também tendo uma parte em que você pode clicar em um botão e ele te trás um 
 </p>
 
 ## Video do projeto
+ <a href="https://www.youtube.com/watch?v=TAtQOSZXlkg">
+    - Link do Video
+ </a>
+ <br>
 
+ ## Imagens do projeto
+
+<img alt="Image do projeto" title="Desktop" src="./assets-readme/image-2.png" width="400px" />
 <br>
-  <video  width="380" poster="./assets-readme/print.png"  controls loop> 
-    <source src="./assets-readme/video.mp4" type="video/mp4">
- </video>
+<img alt="Image do projeto" title="Desktop" src="./assets-readme/image-1.png" width="400px" />
+<br>
+<img alt="Image do projeto" title="Desktop" src="./assets-readme/image-3.png" width="400px" />
+<br>
+
+
+
+
+
 
 <p align="center"> By Diego Silva </p>
