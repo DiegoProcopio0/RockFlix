@@ -20,7 +20,7 @@ e aprimorado com base em desafio da Rockseat
 
 <p>
 O projeto tem como base pegar de uma api os 20 filmes mais populares do momento e mostrar em tela, podendo ver a capa, sinopse do Filme a data de lançamento. <br>
-Também tendo uma parte em que você pode clicar em um botão e ele te trás um filme aleatório mostrando também a a capa e a sinopse.
+Também tendo uma parte em que você pode clicar em um botão e ele te trás um filme aleatório mostrando também a capa e a sinopse.
 
 </p>
 
