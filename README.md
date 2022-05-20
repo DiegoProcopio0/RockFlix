@@ -27,8 +27,7 @@ Também tendo uma parte em que você pode clicar em um botão e ele te trás um 
 ## Video do projeto
 
 <br>
-  <video  width="380" poster="./assets-readme/print.png"  controls loop> 
-    <source src="./assets-readme/video.mp4" type="video/mp4">
- </video>
+[![GeekWire Summit: Joel Spolsky, CEO of Stack Overflow](https://img.youtube.com/vi/R1V8OUOb-Hw/0.jpg)](https://www.youtube.com/watch?v=TAtQOSZXlkg)
+
 
 <p align="center"> By Diego Silva </p>
