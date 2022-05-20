@@ -34,14 +34,11 @@ Também tendo uma parte em que você pode clicar em um botão e ele te trás um 
 
 <img alt="Image do projeto" title="Desktop" src="./assets-readme/image-2.png" width="400px" />
 <br>
+
 <img alt="Image do projeto" title="Desktop" src="./assets-readme/image-1.png" width="400px" />
 <br>
+
 <img alt="Image do projeto" title="Desktop" src="./assets-readme/image-3.png" width="400px" />
 <br>
-
-
-
-
-
-
+   
 <p align="center"> By Diego Silva </p>
